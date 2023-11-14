@@ -1,0 +1,319 @@
+.card{
+    min-height: 100vh;
+    min-width: 100%;
+    background: #0d1437;
+    padding: 30px 60px;
+}
+
+.card-price{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px 50px;
+    grid-gap: 20px;
+}
+
+.card-content-one{
+    border: 1px solid  #09aff4;
+    padding: 30px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+    border-radius: 10px;
+}
+
+.content-img .content-icon{
+    color: #09aff4;
+    font-size: 45px;
+}
+.card-sub-title h4{
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.card-title h1{
+    color: aliceblue;
+    font-size: 58px;
+}
+
+.card-span span{
+    font-style: italic;
+    color: rgb(93, 93, 94);
+}
+.hr {
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 80px;
+    border: 2px solid #09aff4;
+    border-radius: 5px;
+}
+
+.card-para-all p{
+    color: aliceblue;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.card-para-all h5{
+    color: aliceblue;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+
+
+
+.card-content-two{
+    border: 1px solid  #09aff4;
+    padding: 30px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+    border-radius: 10px;
+    background: #09aff4;
+}
+
+.content-img-two .content-icon-two{
+    color: aliceblue;
+    font-size: 45px;
+}
+.card-sub-title-two h4{
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.card-title-two h1{
+    color: aliceblue;
+    font-size: 58px;
+}
+
+.card-span-two span{
+    font-style: italic;
+    color: rgb(93, 93, 94);
+}
+.hr-two{
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 80px;
+    border: 2px solid aliceblue;
+    border-radius: 5px;
+}
+
+.card-para-all-two p{
+    color: aliceblue;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.card-para-all-two h5{
+    color: aliceblue;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.card-btn a{
+    border:2px solid #09aff4;
+    padding: 15px 30px;
+    color: aliceblue;
+    font-weight: 600;
+    font-size: 17px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    text-decoration: none;
+}
+
+.card-btn-two a{
+    border:2px solid aliceblue;
+    padding: 15px 30px;
+    color: aliceblue;
+    font-weight: 600;
+    font-size: 17px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    text-decoration: none;
+}
+
+@media (max-width:768px) {
+    
+    .card-price{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .card-content-one{
+        padding: 20px 8px;
+    }
+
+    .content-img .content-icon{
+        font-size: 30px;
+    }
+
+    .card-sub-title h4{
+        font-size: 16px;
+    }
+
+    .card-title h1{
+        font-size: 40px;
+    }
+
+    .card-span span{
+        font-size: 13px;
+    }
+    .card-para-all p{
+        font-size: 12px;
+    }
+
+    .card-para-all h5{
+        font-size: 14px;
+    }
+
+
+
+    .card-content-two{
+        padding: 20px 8px;
+    }
+
+    .content-img-two .content-icon-two{
+        font-size: 30px;
+    }
+
+    .card-sub-title-two h4{
+        font-size: 16px;
+    }
+
+    .card-title-two h1{
+        font-size: 40px;
+    }
+
+    .card-span-two span{
+        font-size: 13px;
+    }
+    .card-para-all-two p{
+        font-size: 12px;
+    }
+
+    .card-para-all-two h5{
+        font-size: 14px;
+    }
+
+    .card-btn{
+        text-align: center;
+    }
+    .card-btn a{
+        padding: 10px 10px;
+        font-size: 13px;
+    }
+
+    .card-btn-two{
+        text-align: center;
+    }
+    .card-btn-two a{
+        padding: 10px 10px;
+        font-size: 11px;
+    }
+    .hr{
+
+        display: none;
+    }
+    .hr-two{
+
+        display: none;
+    }
+}
+
+
+
+
+
+
+@media (max-width:500px) {
+    
+    .card-price{
+        display: grid;
+        grid-template-columns: 1fr ;
+    }
+
+    .card-content-one{
+        padding: 20px 8px;
+    }
+
+    .content-img .content-icon{
+        font-size: 30px;
+    }
+
+    .card-sub-title h4{
+        font-size: 16px;
+    }
+
+    .card-title h1{
+        font-size: 40px;
+    }
+.hr{
+    margin-left: 20px;
+}
+.hr-two{
+    margin-left: 20px;
+}
+    .card-span span{
+        font-size: 13px;
+    }
+    .card-para-all p{
+        font-size: 12px;
+    }
+
+    .card-para-all h5{
+        font-size: 14px;
+    }
+
+
+
+    .card-content-two{
+        padding: 20px 8px;
+    }
+
+    .content-img-two .content-icon-two{
+        font-size: 30px;
+    }
+
+    .card-sub-title-two h4{
+        font-size: 16px;
+    }
+
+    .card-title-two h1{
+        font-size: 40px;
+    }
+
+    .card-span-two span{
+        font-size: 13px;
+    }
+    .card-para-all-two p{
+        font-size: 12px;
+    }
+
+    .card-para-all-two h5{
+        font-size: 14px;
+    }
+
+    .card-btn{
+        text-align: center;
+    }
+    .card-btn a{
+        padding: 10px 10px;
+        font-size: 13px;
+    }
+
+    .card-btn-two{
+        text-align: center;
+    }
+    .card-btn-two a{
+        padding: 10px 10px;
+        font-size: 13px;
+    }
+
+}

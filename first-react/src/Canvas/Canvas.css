@@ -1,0 +1,27 @@
+.navbar{
+    background: #0d1437;
+}
+.anchor-body{
+    background: #0d1437;   
+}
+.anchor-title{
+    color: aliceblue;
+    font-size: 24px;
+}
+.anchor-link{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.anchor-link a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: aliceblue;
+}
+.anchor-link a:hover{
+    color: #1832b4;
+    transition: 1.5s;
+}

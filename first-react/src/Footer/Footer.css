@@ -1,0 +1,132 @@
+.footer{
+    background:#0d1437;
+    padding: 30px 60px;
+}
+
+
+.footer-content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px 50px;
+    grid-gap: 30px;
+}
+
+.content-one{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.one-heading h2{
+    color: aliceblue;
+    font-size: 27px;
+}
+
+.one-heading p{
+    color: aliceblue;
+    font-size:15px;
+    
+}
+
+.one-input{
+    display: flex;
+    flex-direction: column;
+}
+
+.one-input span{
+    color: gray;
+}
+
+.one-input input{
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+
+.one-input ::placeholder{
+    color:  #0d1437;
+    
+}
+
+.useful-links{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.link-heading h2{
+    font-size: 32px;
+    color: aliceblue;
+}
+
+.link-anchor{
+    display: flex;
+    flex-direction: column;
+}
+
+.link-anchor a{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 15px 20px;
+    font-size: 20px;
+}
+
+
+
+
+.contact-links{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact-heading h2{
+    font-size: 32px;
+    color: aliceblue;
+}
+
+.contact-anchor{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-anchor a{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 15px 20px;
+    font-size: 20px;
+}
+
+.right-footer{
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    
+}
+.right-footer h1{
+    color: aliceblue;
+}
+
+.right-heading{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.right-icon a{ 
+    font-size: 28px;
+    color: aliceblue;
+    
+}
+
+@media (max-width:768px) {
+    .footer{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
